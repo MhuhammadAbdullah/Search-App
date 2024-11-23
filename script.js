@@ -119,8 +119,8 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     ];
   
-    const container = document.getElementById("categoriesContainer");
-    const filterDropdown = document.getElementById("filterDropdown");
+    var container = document.getElementById("categoriesContainer");
+    var filterDropdown = document.getElementById("filterDropdown");
   
     // Render categories
     function renderCategories(filter = "all") {
@@ -130,14 +130,14 @@ document.addEventListener("DOMContentLoaded", function () {
           const section = document.createElement("section");
           section.dataset.category = category.name.toLowerCase();
   
-          const heading = document.createElement("h2");
+          var heading = document.createElement("h2");
           heading.textContent = category.name;
   
-          const grid = document.createElement("div");
+          var grid = document.createElement("div");
           grid.className = "grid";
   
           category.items.forEach(item => {
-            const card = document.createElement("div");
+            var card = document.createElement("div");
             card.className = "card";
   
             card.innerHTML = `
