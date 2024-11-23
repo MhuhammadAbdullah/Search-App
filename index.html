@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Search App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Category Search App</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="filter-dropdown">
+            <select id="filterDropdown">
+                <option value="all">All</option>
+                <option value="cars">Cars</option>
+                <option value="electronics">Electronics</option>
+                <option value="books">Books</option>
+                <option value="clothing">Clothing</option>
+                <option value="home appliances">Home Appliances</option>
+                <option value="toys">Toys</option>
+                <option value="sports equipment">Sports Equipment</option>
+                <option value="gaming">Gaming</option>
+                <option value="furniture">Furniture</option>
+                <option value="health & beauty">Health & Beauty</option>
+                <option value="groceries">Groceries</option>
+                <option value="musical instruments">Musical Instruments</option>
+                <option value="outdoor gear">Outdoor Gear</option>
+            </select>
+
+        </div>
+
+        <div id="categoriesContainer"></div>
+    </main>
+    <footer>
+        <div class="footer-container">
+          <div class="footer-section about">
+            <h2>About Us</h2>
+            <p>
+              We are a leading platform offering diverse products and services, ensuring quality and affordability for our customers. 
+            </p>
+          </div>
+          
+          <div class="footer-section links">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#categories">Categories</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section contact">
+            <h2>Contact Us</h2>
+            <ul>
+              <li>Email: support@example.com</li>
+              <li>Phone: +1-234-567-890</li>
+              <li>Address: 123 Street, City, Country</li>
+            </ul>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Muhammad Abdullah. All rights reserved.</p>
+        </div>
+      </footer>
+      
+    <script src="script.js"></script>
+</body>
+
+</html>
