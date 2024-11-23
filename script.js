@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const categories = [
+    var categories = [
       {
         name: "Cars",
         items: [
